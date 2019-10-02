@@ -8,41 +8,31 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: "soccer",
-          imageUrl:
-            "https://thumblr.uniid.it/blog_component/61636/20fbed293457.jpg",
-          id: 1,
-          linkUrl: 'soccer'
+          title: 'hats',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          id: 1
         },
         {
-          title: "football",
-          imageUrl:
-            "http://static.nfl.com/static/content/public/pg-photo/2015/05/26/0ap3000000494154/15-maryland-s-star-spangled-banner-helmets_pg_600.jpg",
-          id: 2,
-          linkUrl: ''
+          title: 'jackets',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          id: 2
         },
         {
-          title: "ice hockey",
-          imageUrl:
-            "https://i.cbc.ca/1.3250417.1443629608!/fileImage/httpImage/image.JPG_gen/derivatives/4x3_1180/hockey-jerseys-chris-delorme.JPG",
-          id: 3,
-          linkUrl: ''
+          title: 'shoes',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          id: 3
         },
         {
-          title: "rugby",
-          imageUrl:
-            "https://media-assets-01.thedrum.com/cache/images/thedrum-prod/public-news-tmp-77017-canterbury-rwc_2015_shirt--default--1280.jpg",
+          title: 'womens',
+          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
           size: 'large',
-          id: 4,
-          linkUrl: ''
+          id: 4
         },
         {
-          title: "cricket",
-          imageUrl:
-            "https://sportstar.thehindu.com/cricket/article27267688.ece/ALTERNATES/LANDSCAPE_1200/GettyImages-1146184245jpg",
+          title: 'mens',
+          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
           size: 'large',
-          id: 5,
-          linkUrl: ''
+          id: 5
         }
       ]
     };
