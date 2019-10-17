@@ -57,7 +57,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
           required
         />
         <ButtonsBarContainer>
-          <CustomButton type="submit"> Sign in </CustomButton>
+          <CustomButton type="submit">SIGN IN</CustomButton>
           <CustomButton
             type="button"
             onClick={googleSignInStart}
